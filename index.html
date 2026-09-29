@@ -400,23 +400,50 @@
 
         <!-- CHALLENGE -->
 
-        <section class="challenge" id="challenge">
+        <!-- CLONE -->
 
-            <h2>Your First Git Challenge</h2>
+<section class="challenge" id="clone">
 
-            <p>
-                Make a change to this website. Add your name to the
-                participant list below, commit your change, and push
-                it to GitHub.
-            </p>
+    <h2>1. Clone the Workshop</h2>
 
-            <div class="command-box">
-                git add index.html<br>
-                git commit -m "Add my name"<br>
-                git push
-            </div>
+    <p>
+        First, connect to the workshop server through SSH.
+        Then clone the website repository onto your machine.
+    </p>
 
-        </section>
+    <div class="command-box">
+        git clone YOUR-GITHUB-REPOSITORY-URL<br>
+        cd devops-workshop
+    </div>
+
+    <p style="margin-top: 25px;">
+        This downloads a copy of the project from GitHub
+        onto your computer.
+    </p>
+
+</section>
+<!-- GIT CHALLENGE -->
+
+<section class="challenge" id="challenge">
+
+    <h2>2. Make Your First Change</h2>
+
+    <p>
+        Open <strong>index.html</strong> and add your name
+        to the Workshop Participants section.
+    </p>
+
+    <div class="command-box">
+        git add index.html<br>
+        git commit -m "Add my name"<br>
+        git push
+    </div>
+
+    <p style="margin-top: 25px;">
+        Your change is now saved in Git and pushed to GitHub.
+    </p>
+
+</section>
 
 
         <!-- PARTICIPANTS -->
